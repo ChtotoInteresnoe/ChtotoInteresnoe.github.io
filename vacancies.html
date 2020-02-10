@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Главная</title>
+    <title>Вакансии</title>
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -45,7 +45,7 @@
             <nav class="header__nav">
                 <div class="menu__items">
                     <a href="index.html">
-                        <div class="menu__item active">
+                        <div class="menu__item">
                             главная
                         </div>
                     </a>
@@ -60,7 +60,7 @@
                         </div>
                     </a>
                     <a href="vacancies.html">
-                        <div class="menu__item">
+                        <div class="menu__item active">
                             вакансии
                         </div>
                     </a>
@@ -96,43 +96,68 @@
 
     </div>
 </section>
-<section id="main">
+<section id="vacancies">
     <div class="container">
-        <div class="main-wrap">
-            <div class="main__info">
-                <div class="main__info-title-wrap">
-                    <h1 class="main__info-title">
-                        БЮРО ПЕРЕВОДОВ
+        <div class="vacansies-wrap">
+            <div class="vacancies__right">
+                <div class="vacancies__righ-requirements">
+                    <h1 class="vacancies__right-title">
+                        Бюро переводов "English Time.kz" в городе Актобе приглашает к сотрудничеству переводчиков, которые имеют:
                     </h1>
+                    <ul class="vacancies__right-ul">
+                        <li class="vacancies__right-li">- опыт работы переводчиком не менее 3-х лет;</li>
+                        <li class="vacancies__right-li">- профессиональное владение иностранным и родным языком;</li>
+                        <li class="vacancies__right-li">- знание тематической лексики в рамках своей специализации;</li>
+                        <li class="vacancies__right-li">- внимательность и аккуратность.</li>
+                    </ul>
                 </div>
-                <h2 class="main__info-p">
-                    Мы работаем по всему Казахстану
-                </h2>
+                 <div class="vacancies__righ-requirement-tasks">
+                     <div class="vacancies__righ-requirement-tasks-title">
+                         Если вы заинтересованы в вакансии внештатного переводчика:
+                     </div>
+                     <ul class="vacancies__righ-requirement-tasks-ul">
+                         <li class="vacancies__righ-requirement-tasks-li">1. Скачайте тестовое задание</li>
+                         <li class="vacancies__righ-requirement-tasks-li">2. Заполните анкету и выполните задание</li>
+                         <li class="vacancies__righ-requirement-tasks-li">3. Отправьте выполненное задание и резюме по адресу: <span>info@english-time.kz</span></li>
+                         <li class="vacancies__righ-requirement-tasks-li">
+                             4. После отправки мы проверим выполненный тест и обязательно свяжемся  с вами.
+                         </li>
+                     </ul>
+                     <div class="download-btn-wrap">
+                         <a class="download-btn" id="popupLink" href="img/download.jpg" download>
+                             <button class="download-btn" id="popup">
+                                 Скачать прайс
+                             </button>
+                         </a>
+                     </div>
+                 </div>
             </div>
-            <div class="main__form main__form-red">
-                <div class="form__title">
-                    <span>ОТПРАВИТЬ ЗАЯВКУ НА <br> ПЕРЕВОД </span>
-                </div>
-                <form action="#" method="post">
-                    <label for="name">
-                        Имя:
-                        <input type="text" name="name" id="name" placeholder="Введите имя">
-                    </label>
-                    <label for="email">
-                        Электронная почта:
-                        <input type="email" name="email" id="email" placeholder="Введите адрес электронной почты">
-                    </label>
-                    <label for="tel">
-                        Телефон:
-                        <input type="text" name="tel" id="tel" placeholder="Введите номер телефона">
-                    </label>
-                    <div class="form__submit">
-                        <input type="submit" value="отправить">
-                        <span class="form__submin-span">
+            <div class="vacancies__left">
+                <div class="main__form main__form-red">
+                    <div class="form__title">
+                        <span>ОТПРАВИТЬ ЗАЯВКУ НА <br> ПЕРЕВОД </span>
+                    </div>
+                    <form action="#" method="post">
+                        <label for="name">
+                            Имя:
+                            <input type="text" name="name" id="name" placeholder="Введите имя">
+                        </label>
+                        <label for="email">
+                            Электронная почта:
+                            <input type="email" name="email" id="email" placeholder="Введите адрес электронной почты">
+                        </label>
+                        <label for="tel">
+                            Телефон:
+                            <input type="text" name="tel" id="tel" placeholder="Введите номер телефона">
+                        </label>
+                        <div class="form__submit">
+                            <input type="submit" value="отправить">
+                            <span class="form__submin-span">
                             Заявка получена.
                         </span>
-                    </div>
-                </form>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
@@ -173,5 +198,6 @@
     </div>
 </footer>
 <script src="js/burger.js"></script>
+<script src="js/js.js"></script>
 </body>
 </html>
