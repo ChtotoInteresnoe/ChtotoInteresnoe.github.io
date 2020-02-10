@@ -530,6 +530,7 @@ header{
     transform: translateY(150%);
 }
 .burger-bg{
+    user-select: none;
     position: absolute;
     top: -10px;
     left: 0;
