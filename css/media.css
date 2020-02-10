@@ -110,5 +110,15 @@
     .main__info-p{
         margin-bottom: 20px;
     }
+    .contact-number span , .header__info {
+        font-size: 11px;
+    }
+    .footer__pay-title{
+        display: none;
+    }
+    .footer__pay-img{
+        width: auto;
+        flex-direction: column;
+    }
 
 }
