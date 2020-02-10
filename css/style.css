@@ -40,32 +40,33 @@ header{
 .header__nav{
     flex: 1;
 }
-.header__nav ul{
+.menu__items{
     list-style: none;
     align-items: center;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
     height: 100%;
     width: 100%;
 }
-.header__nav li{
+.menu__items a{
+    color: #000;
+    text-decoration: none;
+}
+.menu__item.active {
+    color: red;
+}
+.menu__item:hover{
+    color: red;
+}
+.menu__item{
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 600;
     cursor: pointer;
     margin-right: 25px;
 }
-.header__nav li a{
-   color: #000;
-    text-decoration: none;
-}
-.header__nav li.active a{
-    color: red;
-}
-.header__nav li a:hover{
-    color: red;
-}
+
+
 .contact-number span{
     font-size: 16px;
     line-height: 19px;
@@ -227,6 +228,9 @@ header{
     align-items: center;
     margin-top: 20px;
 }
+.footer-wrap  img:nth-child(2){
+    display: none;
+}
 .header__info{
     font-style: normal;
 }
@@ -260,6 +264,7 @@ header{
 
 .service-wrap{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .main__form-red{
@@ -333,8 +338,12 @@ header{
                              /*price*/
 .price-wrap{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top:60px;
+}
+.mobilePopup{
+    display: none;
 }
 .price__left{
     max-width: 560px;
@@ -401,6 +410,7 @@ header{
 .vacansies-wrap{
     padding-top: 65px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .vacancies__right{
@@ -442,6 +452,7 @@ header{
               /*contact*/
 .contacts-wrap{
     display: flex;
+    flex-wrap: wrap;
     padding-top: 60px;
     justify-content: space-between;
 }
