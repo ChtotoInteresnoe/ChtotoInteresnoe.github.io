@@ -1,0 +1,114 @@
+
+@media screen and (max-width: 1170px) {
+    .container{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1096px) {
+    .header__nav{
+        position: fixed;
+        left: -150px;
+        top: 80px;
+        width: 150px;
+        transition: .5s ease;
+        display: block;
+    }
+    .burger-wrap{
+        display: block;
+    }
+    .burgerShow {
+        display: none;
+    }
+    .header__nav.active{
+        left: 8%;
+    }
+
+    .header__nav ul{
+        flex-direction: column;
+    }
+    .header__nav li{
+        padding: 10px 10px;
+        background-color: red;
+        margin-top: 10px;
+        width: 150px;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .header__nav li:active{
+        background-color: #ffffff;
+        color: red;
+    }
+    .header__nav li:active a{
+        color: red;
+    }
+
+    .header__nav li a {
+        color: #fff;
+    }
+    .header__nav li a:hover {
+        color: #fff;
+    }
+    .header__nav li a:active {
+        color: red;
+    }
+    .header__nav li.active{
+       background-color: #fff;
+    }
+    .header__nav li.active a{
+        color: red;
+    }
+    .main-wrap {
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 840px) {
+    .header__logo-U{
+        font-size: 26px;
+    }
+    .header__logo-other{
+        font-size: 19px;
+    }
+    .header__img{
+        height: 120px;
+    }
+    .subheader__kz{
+        font-size: 22px;
+    }
+    .contact-number span{
+        font-size: 10px;
+    }
+    .header__contact-whatsupp{
+        margin-left: 5px;
+    }
+    .subheader-wrap{
+        height: 30px;
+    }
+    .subheader__mail{
+        font-size: 12px;
+    }
+    .main-wrap{
+        justify-content: center;
+    }
+    .main__info-title-wrap{
+        width: 350px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+    .main__info-title{
+        font-size: 24px;
+        line-height: 50px;
+    }
+    @keyframes slidein {
+        from { font-size: 24px; }
+        to   { font-size: 25px; }
+    }
+    .main__info-p{
+        font-size: 18px;
+        text-align: center;
+        width: 100%;
+    }
+    .main__info-p{
+        margin-bottom: 20px;
+    }
+
+}
