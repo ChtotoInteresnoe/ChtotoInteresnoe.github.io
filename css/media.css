@@ -1,0 +1,295 @@
+@media screen and (max-width: 1470px) {
+    .container{
+        width: 90%;
+    }
+    .main__wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    #main .main__info-nav a{
+        background: #000;
+        width: 90%;
+        border-radius: 15px;
+        height: 8%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 250px;
+    }
+    #main .main__info-nav a:active{
+        background:#ff0;
+        border: 3px solid #000;
+    }
+    #main .main__info-nav a:active li{
+        color: #000;
+    }
+    #main .main__info-nav ul{
+        flex-direction: column;
+        height: 90vh;
+    }
+    #main .main__info-nav ul::after{
+        content: "";
+        display: none;
+    }
+    #main .main__info-nav a li{
+        color: #ff0;
+        font-weight: 700;
+    }
+    #main .main__info-nav a:hover li::after{
+        content: "";
+        display: none;
+
+    }
+    #main .main__info-nav{
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        background-color: #ffff00;
+        width: 100vw;
+        padding-top: 15px;
+    }
+    .main__map-title{
+        text-align: center;
+    }
+    .main__wrap{
+        margin-left: 0;
+    }
+    .first__img img{
+        height: 220px;
+        margin-top: -25px;
+        margin-right: -35px;
+    }
+    .first__wrap{
+        padding: 20px 0;
+    }
+    .main__info-form label input{
+        width: 90%;
+    }
+    .main__info{
+        width: 100%;
+    }
+    .main__info-form{
+        padding: 20px 0px 35px 50px;
+    }
+    .main__info-form input[type="submit"]{
+        transform: none;
+    }
+    .first__btns{
+        display: flex;
+    }
+    .first__title{
+        white-space: nowrap;
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .first__btns button{
+        width: 140px;
+    }
+    .first__btns a{
+        font-weight: 700;
+    }
+    #mobile-nav{
+        display: block;
+        height: 50px;
+        background: #fff;
+    }
+
+
+    #first{
+        padding-top: 50px;
+    }
+    .burger{
+        position: relative;
+    }
+    #mobile-nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    .burger-wrap{
+        display: none;
+        position: fixed;
+        left:5%;
+        top: 20px;
+        width: 33px;
+        height: 50px;
+        z-index:55;
+    }
+    .burger-span{
+        position: absolute;
+        display: inline-block;
+        width: 33px;
+        height:6px;
+        background-color: #000000;
+        border-radius: 10px;
+        transition: .5s ease;
+        z-index: 10;
+    }
+    .burger-span:nth-child(1){
+        transform: translateY(-150%);
+    }
+    .burger-span:nth-child(3){
+        transform: translateY(150%);
+    }
+    .burger-bg{
+        user-select: none;
+        position: absolute;
+        top: -10px;
+        left: 0;
+        height: 29px;
+        width: 33px;
+        cursor: pointer;
+        z-index: 20;
+    }
+    .burgerShow-span{
+        position: absolute;
+        display: inline-block;
+        width: 20px;
+        height:6px;
+        background-color: #000000;
+        border-radius: 10px;
+        left: 7px;
+        top: 1px;
+    }
+    .burgerShow-span:nth-child(3){
+        transform: rotate(45deg);
+    }
+    .burgerShow-span:nth-child(4){
+        transform: rotate(-45deg);
+    }
+    .burgerShow-border{
+        height: 33px;
+        width: 33px;
+        display: none;
+        position: absolute;
+        background: transparent;
+        top: -12px;
+        border-radius: 50%;
+        border: 4px solid #000;
+    }
+    .burger.active .burger-span{
+        position: absolute;
+        display: inline-block;
+        width: 20px;
+        height:6px;
+        background-color: #000000;
+        border-radius: 10px;
+        left: 7px;
+        top: 1px;
+    }
+    .burger.active .burger-span:nth-child(2){
+        height: 0;
+    }
+    .burger.active .burger-span:nth-child(1){
+        transform: rotate(45deg);
+    }
+    .burger.active .burger-span:nth-child(3){
+        transform: rotate(-45deg);
+    }
+    .burger.active .burgerShow-border{
+        display: block;
+    }
+    .burger.active .burgerShow-border-orange{
+        display: block;
+    }
+
+    .burger-wrap{
+        display: block;
+        z-index: 101;
+    }
+    .burgerShow {
+        display: none;
+    }
+    #main .main__info-nav{
+        transform: translateY(-100%);
+        transition: 1s all ease;
+        z-index: 100;
+    }
+    #main .main__info-nav.active{
+        transform: translateY(0);
+    }
+    #mobile-nav{
+        z-index: 99;
+    }
+    .popUp-wrap{
+        width: 90%;
+        height: 80%;
+    }
+    .main__info-form label input{
+        padding-left: 15px;
+        height: 45px;
+    }
+    .main__info-form label{
+        margin-left: 0;
+    }
+    .main__map-img{
+        background: url("../img/map.png") no-repeat center;
+        background-size: 500px;
+    }
+    .main__map-img-aktobe{
+        left: 180px;
+        top: 130px;
+    }
+    .service__title{
+        font-size: 26px;
+        font-weight: 500;
+    }
+    .service-wrap{
+        padding: 20px 0 20px 0;
+    }
+    .service__items{
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+    }
+    .service__item{
+        font-size: 20px;
+    }
+    .service__p{
+        font-size: 19px;
+        padding: 0;
+        padding-bottom: 15px;
+        font-weight: 500;
+    }
+    .service__natorius{
+        font-size: 18px;
+        margin-left: 35px;
+    }
+    .tables-course{
+        width: 270px;
+    }
+    .main__info-nav a li{
+        font-size: 24px;
+    }
+    .price-table-item{
+        font-size: 20px;
+    }
+    .price-table-orange{
+        font-size: 12px;
+    }
+    .table-info button, .service__btn{
+        font-size: 14px;
+        white-space: nowrap;
+    }
+    .table-info{
+        align-items: center;
+    }
+    .table-p{
+        font-size: 12px;
+    }
+    .service__p{
+        font-size: 19px;
+    }
+    .main__info-nav a li{
+        font-size: 18px;
+    }
+    #tables{
+        padding: 23px 0 58px 0;
+    }
+
+}
