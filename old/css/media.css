@@ -1,0 +1,217 @@
+
+@media screen and (max-width: 1170px) {
+    .container{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1096px) {
+    .header__nav{
+        position: fixed;
+        left: -165px;
+        top: 70px;
+        width: 150px;
+        transition: .5s ease;
+        display: block;
+    }
+    .burger-wrap{
+        display: block;
+    }
+    .burgerShow {
+        display: none;
+    }
+    .header__nav.active{
+        left: 4%;
+    }
+
+    .menu__items{
+        flex-direction: column;
+        height: 230px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .menu__item{
+        padding: 10px 10px;
+        background-color: red;
+        width: 150px;
+        border-radius: 15px;
+        text-align: center;
+        margin-right: 0;
+    }
+    .menu__item.active{
+        color: red;
+    }
+    .menu__item {
+        color: #fff;
+        box-sizing: border-box;
+    }
+    .menu__item:hover{
+        color: #fff;
+    }
+    .menu__item.active:hover{
+        color: red;
+    }
+    .menu__items a:active .menu__item  {
+        background-color: #ffffff;
+        color: red;
+    }
+    .menu__item.active{
+        background-color: #fff;
+        border: 2px solid red;
+    }
+    .main-wrap {
+        flex-wrap: wrap;
+    }
+    .main__form{
+        width: auto;
+        margin-top:50px;
+    }
+
+}
+@media screen and (max-width: 840px) {
+    .download-btn button {
+        margin-top: 0;
+    }
+    #priceSelect{
+        display: none;
+    }
+    .header__logo-U{
+        font-size: 26px;
+    }
+    .header__logo-other{
+        font-size: 19px;
+    }
+    .header__img{
+        height: 120px;
+    }
+    .subheader__kz{
+        font-size: 22px;
+    }
+    .contact-number span{
+        font-size: 10px;
+    }
+    .header__contact-whatsupp{
+        margin-left: 5px;
+    }
+    .subheader-wrap{
+        height: 30px;
+    }
+    .subheader__mail{
+        font-size: 12px;
+    }
+    .main-wrap{
+        justify-content: center;
+    }
+    .main__info-title-wrap{
+        width: 350px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+    .main__info-title{
+        font-size: 24px;
+        line-height: 50px;
+    }
+    @keyframes slidein {
+        from { font-size: 24px; }
+        to   { font-size: 25px; }
+    }
+    .main__info-p{
+        font-size: 18px;
+        text-align: center;
+        width: 100%;
+    }
+    .main__info-p{
+        margin-bottom: 20px;
+    }
+    .contact-number span , .header__info {
+        font-size: 11px;
+    }
+    .footer__pay-title{
+        display: none;
+    }
+    .footer__pay-img{
+        width: auto;
+        flex-direction: column;
+    }
+    .footer-wrap  img:nth-child(5){
+        display: none;
+    }
+    .footer-wrap  img:nth-child(6){
+        display: none;
+    }
+    .footer-wrap  img:nth-child(2){
+        display: block;
+        height: 30px;
+        margin-top: 5px;
+    }
+    .footer-wrap  img:nth-child(1){
+        display: block;
+        height: 30px;
+    }
+
+    .service__right-content a{
+        display: none;
+    }
+    .price-table {
+        display: none;
+    }
+    .service-popup .price-table{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .price__right{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .mobilePopup{
+        display: block;
+    }
+    .service-popup-info{
+        width: auto;
+    }
+    .contact__right-img{
+        display: none;
+    }
+    .footer-wrap img:nth-child(2){
+        display: none;
+    }
+    .price-table{
+        margin-top: 30px;
+    }
+    #priceSelect{
+        position: absolute;
+        top: 2px;
+        left: 50%;
+        z-index: 56;
+        transform: translateX(-50%);
+    }
+    #priceSelect.active{
+        display: block;
+    }
+    .contacts__right{
+        width: 100%;
+    }
+    .vacancies__left{
+        width: 100%;
+    }
+    header , .subheader{
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+    }
+    .subheader{
+        top: 80px;
+        z-index: 1;
+
+    }
+    body section:nth-child(3){
+        padding-top: 110px;
+    }
+    #service{
+        padding-top: 130px;
+        margin-top: 0;
+    }
+    .service-popup{
+        z-index: 55;
+    }
+
+}
